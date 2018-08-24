@@ -1,0 +1,10 @@
+D:\LP2_2emia_24_08_18\LP2_2emia_24_08_18\bin\Debug\LP2_2emia_24_08_18.exe.config
+D:\LP2_2emia_24_08_18\LP2_2emia_24_08_18\bin\Debug\LP2_2emia_24_08_18.exe
+D:\LP2_2emia_24_08_18\LP2_2emia_24_08_18\bin\Debug\LP2_2emia_24_08_18.pdb
+D:\LP2_2emia_24_08_18\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.csprojAssemblyReference.cache
+D:\LP2_2emia_24_08_18\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.Form1.resources
+D:\LP2_2emia_24_08_18\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.Properties.Resources.resources
+D:\LP2_2emia_24_08_18\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.csproj.GenerateResource.cache
+D:\LP2_2emia_24_08_18\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.csproj.CoreCompileInputs.cache
+D:\LP2_2emia_24_08_18\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.exe
+D:\LP2_2emia_24_08_18\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.pdb
