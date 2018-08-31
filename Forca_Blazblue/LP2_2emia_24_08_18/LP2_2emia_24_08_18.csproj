@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PalavraComposta.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +85,117 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sabe_nada.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YuukiTerumi.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YuukiTerumi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JinKisaragi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ragna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Litchi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arakune.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NoelVermillion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RachelAlucard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Taokaka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hakuman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hazama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tsubaki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\makoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mu12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Platinum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Valkenhayn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Azrael.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\celica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hibiki.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izanami.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Izaoy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jubei.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kagura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kokonoe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lambda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Naota.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Relius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\susano.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

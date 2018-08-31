@@ -28,14 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lbPalavra = new System.Windows.Forms.Label();
             this.tbLetra = new System.Windows.Forms.TextBox();
             this.btJogar = new System.Windows.Forms.Button();
-            this.pbResultado = new System.Windows.Forms.PictureBox();
             this.lbChances = new System.Windows.Forms.Label();
             this.lbResultado = new System.Windows.Forms.Label();
             this.lbLetrasDigitadas = new System.Windows.Forms.Label();
             this.btReiniciar = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pbResultado = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbResultado)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,14 +70,6 @@
             this.btJogar.UseVisualStyleBackColor = true;
             this.btJogar.Click += new System.EventHandler(this.btJogar_Click);
             // 
-            // pbResultado
-            // 
-            this.pbResultado.Location = new System.Drawing.Point(150, 49);
-            this.pbResultado.Name = "pbResultado";
-            this.pbResultado.Size = new System.Drawing.Size(302, 205);
-            this.pbResultado.TabIndex = 3;
-            this.pbResultado.TabStop = false;
-            // 
             // lbChances
             // 
             this.lbChances.AutoSize = true;
@@ -89,7 +83,7 @@
             // lbResultado
             // 
             this.lbResultado.AutoSize = true;
-            this.lbResultado.Location = new System.Drawing.Point(15, 290);
+            this.lbResultado.Location = new System.Drawing.Point(15, 553);
             this.lbResultado.Name = "lbResultado";
             this.lbResultado.Size = new System.Drawing.Size(110, 26);
             this.lbResultado.TabIndex = 6;
@@ -98,7 +92,7 @@
             // lbLetrasDigitadas
             // 
             this.lbLetrasDigitadas.AutoSize = true;
-            this.lbLetrasDigitadas.Location = new System.Drawing.Point(15, 316);
+            this.lbLetrasDigitadas.Location = new System.Drawing.Point(15, 579);
             this.lbLetrasDigitadas.Name = "lbLetrasDigitadas";
             this.lbLetrasDigitadas.Size = new System.Drawing.Size(257, 26);
             this.lbLetrasDigitadas.TabIndex = 7;
@@ -114,11 +108,31 @@
             this.btReiniciar.UseVisualStyleBackColor = true;
             this.btReiniciar.Click += new System.EventHandler(this.btReiniciar_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(380, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 31);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Dica";
+            // 
+            // pbResultado
+            // 
+            this.pbResultado.Location = new System.Drawing.Point(212, 49);
+            this.pbResultado.Name = "pbResultado";
+            this.pbResultado.Size = new System.Drawing.Size(302, 316);
+            this.pbResultado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pbResultado.TabIndex = 3;
+            this.pbResultado.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(528, 357);
+            this.ClientSize = new System.Drawing.Size(559, 613);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btReiniciar);
             this.Controls.Add(this.lbLetrasDigitadas);
             this.Controls.Add(this.lbResultado);
@@ -128,8 +142,12 @@
             this.Controls.Add(this.tbLetra);
             this.Controls.Add(this.lbPalavra);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jogo Da Forca Blazblue";
             ((System.ComponentModel.ISupportInitialize)(this.pbResultado)).EndInit();
             this.ResumeLayout(false);
@@ -147,6 +165,7 @@
         private System.Windows.Forms.Label lbResultado;
         private System.Windows.Forms.Label lbLetrasDigitadas;
         private System.Windows.Forms.Button btReiniciar;
+        private System.Windows.Forms.Label label1;
     }
 }
 
