@@ -35,6 +35,7 @@
             this.lbChances = new System.Windows.Forms.Label();
             this.lbResultado = new System.Windows.Forms.Label();
             this.lbLetrasDigitadas = new System.Windows.Forms.Label();
+            this.btReiniciar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbResultado)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,6 +52,7 @@
             // tbLetra
             // 
             this.tbLetra.Location = new System.Drawing.Point(12, 49);
+            this.tbLetra.MaxLength = 1;
             this.tbLetra.Name = "tbLetra";
             this.tbLetra.Size = new System.Drawing.Size(132, 32);
             this.tbLetra.TabIndex = 1;
@@ -102,11 +104,22 @@
             this.lbLetrasDigitadas.TabIndex = 7;
             this.lbLetrasDigitadas.Text = "Letras Digitadas: A; B; C;";
             // 
+            // btReiniciar
+            // 
+            this.btReiniciar.Location = new System.Drawing.Point(12, 190);
+            this.btReiniciar.Name = "btReiniciar";
+            this.btReiniciar.Size = new System.Drawing.Size(132, 41);
+            this.btReiniciar.TabIndex = 8;
+            this.btReiniciar.Text = "Reiniciar";
+            this.btReiniciar.UseVisualStyleBackColor = true;
+            this.btReiniciar.Click += new System.EventHandler(this.btReiniciar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(528, 357);
+            this.Controls.Add(this.btReiniciar);
             this.Controls.Add(this.lbLetrasDigitadas);
             this.Controls.Add(this.lbResultado);
             this.Controls.Add(this.lbChances);
@@ -115,9 +128,9 @@
             this.Controls.Add(this.tbLetra);
             this.Controls.Add(this.lbPalavra);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Jogo Da Forca Blazblue";
             ((System.ComponentModel.ISupportInitialize)(this.pbResultado)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -133,6 +146,7 @@
         private System.Windows.Forms.Label lbChances;
         private System.Windows.Forms.Label lbResultado;
         private System.Windows.Forms.Label lbLetrasDigitadas;
+        private System.Windows.Forms.Button btReiniciar;
     }
 }
 

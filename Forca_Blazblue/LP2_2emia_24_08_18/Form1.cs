@@ -19,10 +19,10 @@ namespace LP2_2emia_24_08_18
             "HibikiKohaku", // 2
             "ReliusClover", // 3
             "Es", // 4
-            "CarlClover",
-            "KokonoeAMercury",
-            "KonoeAMercury",
-            "CelicaAMercury"
+            "CarlClover", // 5
+            "KokonoeAMercury", // 6
+            "KonoeAMercury", // 7
+            "CelicaAMercury" // 8
         };
 
         string palavra = "";
@@ -37,6 +37,12 @@ namespace LP2_2emia_24_08_18
         {
             InitializeComponent();
 
+            Jogar();
+
+        }
+
+        private void Jogar()
+        {
             SortearPalavra();
 
             lbLetrasDigitadas.Text = "Letras Digitadas: ";
@@ -145,6 +151,17 @@ namespace LP2_2emia_24_08_18
             {
                 btJogar.PerformClick();
             }
+        }
+
+        private void btReiniciar_Click(object sender, EventArgs e)
+        {
+            chances = 7;
+            Jogar();
+            letrasDigitadas = new List<char>();
+            AtualizarExibicaoPalavra();
+            pbResultado.Image = null;
+            tbLetra.Enabled = true;
+            btJogar.Enabled = true;
         }
     }
 }
