@@ -17,3 +17,13 @@ C:\Users\Lohan\Desktop\GitDoLohan\Forca_Blazblue\LP2_2emia_24_08_18\obj\Debug\LP
 C:\Users\Lohan\Desktop\GitDoLohan\Forca_Blazblue\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.Form1.resources
 C:\Users\Lohan\Desktop\GitDoLohan\Forca_Blazblue\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.Properties.Resources.resources
 C:\Users\Lohan\Desktop\GitDoLohan\Forca_Blazblue\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.csproj.GenerateResource.Cache
+C:\Users\lohan\OneDrive\Área de Trabalho\Forca-master\Forca-master\Forca_Blazblue\LP2_2emia_24_08_18\bin\Debug\LP2_2emia_24_08_18.exe.config
+C:\Users\lohan\OneDrive\Área de Trabalho\Forca-master\Forca-master\Forca_Blazblue\LP2_2emia_24_08_18\bin\Debug\LP2_2emia_24_08_18.exe
+C:\Users\lohan\OneDrive\Área de Trabalho\Forca-master\Forca-master\Forca_Blazblue\LP2_2emia_24_08_18\bin\Debug\LP2_2emia_24_08_18.pdb
+C:\Users\lohan\OneDrive\Área de Trabalho\Forca-master\Forca-master\Forca_Blazblue\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.csprojAssemblyReference.cache
+C:\Users\lohan\OneDrive\Área de Trabalho\Forca-master\Forca-master\Forca_Blazblue\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.Form1.resources
+C:\Users\lohan\OneDrive\Área de Trabalho\Forca-master\Forca-master\Forca_Blazblue\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.Properties.Resources.resources
+C:\Users\lohan\OneDrive\Área de Trabalho\Forca-master\Forca-master\Forca_Blazblue\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.csproj.GenerateResource.cache
+C:\Users\lohan\OneDrive\Área de Trabalho\Forca-master\Forca-master\Forca_Blazblue\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.csproj.CoreCompileInputs.cache
+C:\Users\lohan\OneDrive\Área de Trabalho\Forca-master\Forca-master\Forca_Blazblue\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.exe
+C:\Users\lohan\OneDrive\Área de Trabalho\Forca-master\Forca-master\Forca_Blazblue\LP2_2emia_24_08_18\obj\Debug\LP2_2emia_24_08_18.pdb

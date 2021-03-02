@@ -10,26 +10,10 @@ using System.Windows.Forms;
 
 namespace LP2_2emia_24_08_18
 {
-    //todo: considerar espaços dos nomes
-    //não deixar repetição de letras
-    //deixar digitar o nome do personagem inteiro com espaços (deixar por ultimo)
 
     public partial class Form1 : Form
     {
         private List<PalavraComposta> palavras2 = new List<PalavraComposta>();
-
-        //string[] palavras = new string[9]
-        //{
-        //    "YuukiTerumi", // 0
-        //    "Azazel", // 1
-        //    "HibikiKohaku", // 2
-        //    "ReliusClover", // 3
-        //    "Es", // 4
-        //    "CarlClover", // 5
-        //    "KokonoeAMercury", // 6
-        //    "KonoeAMercury", // 7
-        //    "CelicaAMercury" // 8
-        //};
 
         string palavra = "";
 
@@ -46,12 +30,12 @@ namespace LP2_2emia_24_08_18
             InitializeComponent();
 
             PalavraComposta item = new PalavraComposta();
-            item.Palavra = "YuukiTerumi";
+            item.Palavra = "Yuuki Terumi";
             item.Imagem = Properties.Resources.YuukiTerumi;
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "JinKisaragi";
+            item.Palavra = "Jin Kisaragi";
             item.Imagem = Properties.Resources.JinKisaragi;
             palavras2.Add(item);
 
@@ -61,12 +45,12 @@ namespace LP2_2emia_24_08_18
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "NoelVermillion";
+            item.Palavra = "Noel Vermillion";
             item.Imagem = Properties.Resources.NoelVermillion;
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "RachelAlucard";
+            item.Palavra = "Rachel Alucard";
             item.Imagem = Properties.Resources.RachelAlucard;
             palavras2.Add(item);
 
@@ -76,7 +60,7 @@ namespace LP2_2emia_24_08_18
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "IronTager";
+            item.Palavra = "Iron Tager";
             item.Imagem = Properties.Resources.Tager;
             palavras2.Add(item);
 
@@ -91,12 +75,12 @@ namespace LP2_2emia_24_08_18
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "BangShishigami";
+            item.Palavra = "Bang Shishigami";
             item.Imagem = Properties.Resources.Bang;
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "CarlClover";
+            item.Palavra = "Carl Clover";
             item.Imagem = Properties.Resources.Carl;
             palavras2.Add(item);
 
@@ -111,7 +95,7 @@ namespace LP2_2emia_24_08_18
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "TsubakiYayoi";
+            item.Palavra = "Tsubaki Yayoi";
             item.Imagem = Properties.Resources.Tsubaki;
             palavras2.Add(item);
 
@@ -126,7 +110,7 @@ namespace LP2_2emia_24_08_18
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "MakotoNanaya";
+            item.Palavra = "Makoto Nanaya";
             item.Imagem = Properties.Resources.makoto;
             palavras2.Add(item);
 
@@ -136,17 +120,12 @@ namespace LP2_2emia_24_08_18
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "PlatinumTheTrinity";
+            item.Palavra = "Platinum The Trinity";
             item.Imagem = Properties.Resources.Platinum;
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "PlatinumTheTrinity";
-            item.Imagem = Properties.Resources.Platinum;
-            palavras2.Add(item);
-
-            item = new PalavraComposta();
-            item.Palavra = "ReliusClover";
+            item.Palavra = "Relius Clover";
             item.Imagem = Properties.Resources.Relius;
             palavras2.Add(item);
 
@@ -156,7 +135,7 @@ namespace LP2_2emia_24_08_18
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "AmaneNishiki";
+            item.Palavra = "Amane Nishiki";
             item.Imagem = Properties.Resources.Amane;
             palavras2.Add(item);
 
@@ -171,17 +150,17 @@ namespace LP2_2emia_24_08_18
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "KaguraMutsuki";
+            item.Palavra = "Kagura Mutsuki";
             item.Imagem = Properties.Resources.Kagura;
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "KokonoeMercury";
+            item.Palavra = "Kokonoe Mercury";
             item.Imagem = Properties.Resources.kokonoe;
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "CelicaAyatsukiMercury";
+            item.Palavra = "Celica Ayatsuki Mercury";
             item.Imagem = Properties.Resources.celica;
             palavras2.Add(item);
 
@@ -191,22 +170,22 @@ namespace LP2_2emia_24_08_18
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "HibikiKohaku";
+            item.Palavra = "Hibiki Kohaku";
             item.Imagem = Properties.Resources.hibiki;
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "NaotoKurogane";
+            item.Palavra = "Naoto Kurogane";
             item.Imagem = Properties.Resources.Naota;
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "KonoeAyatsukiMercury";
+            item.Palavra = "Konoe Ayatsuki Mercury";
             item.Imagem = Properties.Resources.nine;
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "HadesIzanami";
+            item.Palavra = "Hades Izanami";
             item.Imagem = Properties.Resources.Izanami;
             palavras2.Add(item);
 
@@ -221,7 +200,7 @@ namespace LP2_2emia_24_08_18
             palavras2.Add(item);
 
             item = new PalavraComposta();
-            item.Palavra = "MaiHazuki";
+            item.Palavra = "Mai Hazuki";
             item.Imagem = Properties.Resources.mai;
             palavras2.Add(item);
 
@@ -237,11 +216,15 @@ namespace LP2_2emia_24_08_18
         {                       
             SortearPalavra2();
 
-            //SortearPalavra();
+            AtualizarChances();
+
+            tbLetra.Text = " ";
+
+            btJogar_Click(null, null);
 
             lbLetrasDigitadas.Text = "Letras Digitadas: ";
 
-            AtualizarChances();
+            lbResultado.Text = "Digite uma letra.";
         }
 
         private void SortearPalavra2()
@@ -272,14 +255,6 @@ namespace LP2_2emia_24_08_18
             }
         }
 
-        //private void SortearPalavra()
-        //{
-        //    int indiceAleatorio = rnd.Next(0, palavras.Length);
-        //    palavra = palavras[indiceAleatorio].ToLower();
-        //    Console.WriteLine(palavra);
-
-        //    AtualizarExibicaoPalavra();
-        //}
 
         private void AtualizarExibicaoPalavra()
         {
@@ -316,30 +291,42 @@ namespace LP2_2emia_24_08_18
             if (tbLetra.Text.Length == 1)
             {
                 char letra = Convert.ToChar(tbLetra.Text.ToLower());
-                letrasDigitadas.Add(letra);
-                AtualizarExibicaoPalavra();
-
-                tbLetra.Clear();
-                tbLetra.Focus();
-                lbLetrasDigitadas.Text += letra + "; ";
-
-                if (palavra.Contains(letra))
+                if (!letrasDigitadas.Contains(letra))
                 {
-                    lbResultado.Text = "A letra informada está na palavra.";
+                    letrasDigitadas.Add(letra);
+                    AtualizarExibicaoPalavra();
+
+                    tbLetra.Clear();
+                    tbLetra.Focus();
+                    lbLetrasDigitadas.Text += letra + "; ";
+
+                    if (letra != ' ')
+                    {
+                        if (palavra.Contains(letra))
+                        {
+                            lbResultado.Text = "A letra informada está no nome.";
+                        }
+                        else
+                        {
+                            chances--;
+                            AtualizarChances();
+
+                            if (chances == 0)
+                            {
+                                tbLetra.Enabled = false;
+                                btJogar.Enabled = false;
+                                MessageBox.Show("O personagem era: " + palavra, "Você Perdeu");
+                            }
+
+                            lbResultado.Text = "A letra informada não esta no nome.";
+                        }
+                    }
                 }
                 else
                 {
-                    chances--;
-                    AtualizarChances();
-
-                    if (chances == 0)
-                    {
-                        tbLetra.Enabled = false;
-                        btJogar.Enabled = false;
-                        MessageBox.Show("O personagem era: " + palavra,"Você Perdeu");
-                    }
-
-                    lbResultado.Text = "A letra informada não esta não palavra.";
+                    lbResultado.Text = "Letra já digitada!";
+                    tbLetra.Clear();
+                    tbLetra.Focus();
                 }
             }
             else
@@ -362,7 +349,6 @@ namespace LP2_2emia_24_08_18
             letrasDigitadas = new List<char>();
             Jogar();
             AtualizarExibicaoPalavra();
-            //pbResultado.Image = null;
             tbLetra.Enabled = true;
             btJogar.Enabled = true;
         }

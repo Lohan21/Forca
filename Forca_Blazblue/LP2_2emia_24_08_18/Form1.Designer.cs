@@ -47,7 +47,7 @@
             this.lbPalavra.Location = new System.Drawing.Point(7, 9);
             this.lbPalavra.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lbPalavra.Name = "lbPalavra";
-            this.lbPalavra.Size = new System.Drawing.Size(96, 26);
+            this.lbPalavra.Size = new System.Drawing.Size(117, 31);
             this.lbPalavra.TabIndex = 0;
             this.lbPalavra.Text = "_ _ _ _ _";
             // 
@@ -56,7 +56,7 @@
             this.tbLetra.Location = new System.Drawing.Point(12, 49);
             this.tbLetra.MaxLength = 1;
             this.tbLetra.Name = "tbLetra";
-            this.tbLetra.Size = new System.Drawing.Size(132, 32);
+            this.tbLetra.Size = new System.Drawing.Size(132, 38);
             this.tbLetra.TabIndex = 1;
             this.tbLetra.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbLetra_KeyDown);
             // 
@@ -76,25 +76,25 @@
             this.lbChances.ForeColor = System.Drawing.Color.Green;
             this.lbChances.Location = new System.Drawing.Point(15, 151);
             this.lbChances.Name = "lbChances";
-            this.lbChances.Size = new System.Drawing.Size(122, 26);
+            this.lbChances.Size = new System.Drawing.Size(152, 31);
             this.lbChances.TabIndex = 4;
             this.lbChances.Text = "Chances: 7";
             // 
             // lbResultado
             // 
             this.lbResultado.AutoSize = true;
-            this.lbResultado.Location = new System.Drawing.Point(15, 553);
+            this.lbResultado.Location = new System.Drawing.Point(15, 518);
             this.lbResultado.Name = "lbResultado";
-            this.lbResultado.Size = new System.Drawing.Size(110, 26);
+            this.lbResultado.Size = new System.Drawing.Size(137, 31);
             this.lbResultado.TabIndex = 6;
             this.lbResultado.Text = "Resultado";
             // 
             // lbLetrasDigitadas
             // 
             this.lbLetrasDigitadas.AutoSize = true;
-            this.lbLetrasDigitadas.Location = new System.Drawing.Point(15, 579);
+            this.lbLetrasDigitadas.Location = new System.Drawing.Point(15, 549);
             this.lbLetrasDigitadas.Name = "lbLetrasDigitadas";
-            this.lbLetrasDigitadas.Size = new System.Drawing.Size(257, 26);
+            this.lbLetrasDigitadas.Size = new System.Drawing.Size(320, 31);
             this.lbLetrasDigitadas.TabIndex = 7;
             this.lbLetrasDigitadas.Text = "Letras Digitadas: A; B; C;";
             // 
@@ -111,10 +111,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Lucida Sans Typewriter", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(380, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 31);
+            this.label1.Size = new System.Drawing.Size(90, 39);
             this.label1.TabIndex = 9;
             this.label1.Text = "Dica";
             // 
@@ -129,7 +129,7 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(559, 613);
             this.Controls.Add(this.label1);
@@ -144,7 +144,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
